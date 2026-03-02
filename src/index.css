@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+/* 
+@keyframes radialGradientShift {
+    0% { background-position: 50% 50%; background-size: 100% 100%; }
+    50% { background-position: 55% 55%; background-size: 120% 120%; }
+    100% { background-position: 50% 50%; background-size: 100% 100%; }
+  }
+  
+  body {
+    background: radial-gradient(circle, #2E2E2E 0%, #141414 100%);
+    background-size: 150% 150%;
+    animation: radialGradientShift 8s ease-in-out infinite;
+    transition: background 0.7s ease-in-out;
+  } */
+
+  body {
+    background: linear-gradient(135deg, #2E2E2E 10%, #1E3A5F 90%);
+
+    transition: background 0.7s ease-in-out;
+  } 
+  
+
