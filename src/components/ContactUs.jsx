@@ -13,15 +13,6 @@ const ContactUs = () => {
         <Header/>
         <hr className="border-gray-500  border-t-[0.9px] w-4/4 mx-auto opacity-30" />
        <div className="min-h-screen text-white px-4 py-8 bg-gradient-to-br from-[#2E2E2E] to-[#1E3A5F] flex flex-col items-center">
-      {/* Heading */}
-      {/* <div className="text-center mb-10">
-        <h1 className="text-2xl md:text-5xl font-extrabold text-[#D1BFA7]">
-          CONTACT <span className="text-[#8C6A5D]">US</span>
-        </h1> */}
-        {/* <p className="text-[#b0adaa] mt-3 text-lg">
-          Any question or remarks? Just write us a message.
-        </p> */}
-      {/* </div> */}
 
       {/* Content */}
       <div className="max-w-4xl w-full grid md:grid-cols-2 gap-10 bg-[#B0B0B0]/10 rounded-xl p-6 md:p-10 shadow-lg">

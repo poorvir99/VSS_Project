@@ -1,54 +1,40 @@
 const awardsData = [
   {
-    year: "1980",
-    title: "Best Artisan Award",
-    description: "Recognized for lifetime contribution to stone sculpture.",
+    year: "2006",
+    title: "National Award – ShilpGuru Award",
+    description:"Conferred with the National ShilpGuru Award in recognition of exceptional contribution to traditional Indian handicrafts and sculptural craftsmanship.",
   },
   {
-    year: "1999",
-    title: "Jakanacharya Award",
-    description: "Honored by the Government of Karnataka.",
+    year: "2000",
+    title: "Jakanachari Award",
+    description: "Received the prestigious Jakanachari Award, a state honor presented by the Government of Karnataka to recognize talented sculptors and craftsmen."
   },
   {
-    year: "2005",
-    title: "Shila Shilpi Award",
-    description: "For excellence in temple architecture and craftsmanship.",
+    year: "1991",
+    title: "Karnataka Rajyotsava Prashasthi",
+    description: "Recognized with the Karnataka Rajyotsava Prashasthi for contributions to traditional art and cultural heritage.",
   },
   {
-    year: "2010",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
+     year: "1994",
+    title: "Karnataka Lalit Kala Academy Award",
+    description: "Received the prestigious Karnataka Lalit Kala Academy Award in recognition of outstanding contribution to the field of sculpture and traditional sculptural arts.",
   },
   {
-    year: "2011",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
+    year: "1995",
+    title: "Karnataka Rajya Prashasti",
+    description: "Received the Karnataka Rajya Prashasti in recognition of distinguished contributions to art and cultural heritage.",
   },
    {
-    year: "2012",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
+    year: "2004",
+    title: "Kamala Devi Chattopadhyaya Prashasti",
+    description: "Recognized with the Kamala Devi Chattopadhyaya Prashasti for contributions to traditional arts and cultural heritage.",
   },
    {
-    year: "2013",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
+    year: "2006",
+    title: "Suvarna Karnataka Navodaya Prashasti",
+    description: "Honored with the Suvarna Karnataka Navodaya Prashasti for contributions to Karnataka's artistic and cultural heritage.",
   },
-   {
-    year: "2014",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
-  },
-   {
-    year: "2015",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
-  },
-   {
-    year: "2016",
-    title: "Karnataka Rajyotsava Award",
-    description: "For preserving Karnataka’s sculptural heritage.",
-  },
+   
 
 ];
 

@@ -12,6 +12,7 @@ import Founder from "./components/Founder";
 import Awards from "./components/Awards";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import ScrollToTop from "./components/ScrollToTop";
+import OurLeadership from "./components/OurLeadership";
 
 
 
@@ -26,14 +27,18 @@ function App() {
       <Routes>
         <Route path="/" element={ <HomePage />}/>
         <Route path="/about" element={<AboutUs/>}/>
-            <Route path="/founder" element={<Founder/>}/>
+         <Route path="/founder" element={<Founder/>}/>
+         <Route path="/our-leadership" element={<OurLeadership />} />
+
         <Route path="/project" element={<ProjectPage/>}/>
+        <Route path="/project/:projectId" element={<ProjectDetails />} />
+
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/gallery/:category" element={<GalleryCategory />} />
          <Route path="/gallery/:category" element={<GalleryCategory />}/>
+
         <Route path="/contact" element={<ContactUs/>}/>  
          <Route path="/award" element={<Awards/>}/>   
-        <Route path="/project_detail_1" element={<ProjectDetails />} />
+       
       </Routes>    
     </Router>
    
