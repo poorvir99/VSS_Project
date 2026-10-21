@@ -1,99 +1,3 @@
-// import React from "react";
-// import Header from "../Header";
-// import Footer from "../Footer";
-// import GalleryBackButton from "../GalleryBackButton";
-
-// const ProjectDetails = () => {
-//   return (
-    
-//      <div>
-//         <Header/>
-//       <hr className="border-gray-500 border-t-[0.9px] w-full mx-auto opacity-30" />
-//    <section className="bg-gradient-to-br from-[#2E2E2E] to-[#1E3A5F] text-[#F2F2F2]">
-    
- 
-//       {/* CONTENT WRAPPER */}
-//       <div className="max-w-7xl mx-auto px-6 py-10">
-//         {/* PROJECT TITLE */}
-//         <div className="mb-14">
-//           <h1 className="text-4xl md:text-5xl font-serif text-[#D1BFA7] mb-4">
-//             Sri Ranganatha Temple
-//           </h1>
-//           <p className="text-lg text-gray-300 max-w-3xl">
-//             A traditional granite temple built following ancient Dravidian architectural principles,
-//             showcasing intricate stone carvings and timeless craftsmanship.
-//           </p>
-//         </div>
-
-//         {/* PROJECT META DATA */}
-//         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-20 border-t border-b border-white/10 py-10">
-//           <Meta title="Location" value="Karnataka, India" />
-//           <Meta title="Year" value="2022" />
-//           <Meta title="Material" value="Granite Stone" />
-//           <Meta title="Style" value="Dravidian Architecture" />
-//         </div>
-
-//         {/* PROJECT STORY */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
-//           <div>
-//             <h2 className="text-3xl font-serif text-[#D1BFA7] mb-6">
-//               Project Story
-//             </h2>
-//             <p className="text-gray-300 leading-relaxed mb-6">
-//               This temple project was envisioned as a revival of ancient stone
-//               craftsmanship. Every sculpture was hand-carved following
-//               traditional shilpa shastra guidelines passed down through generations.
-//             </p>
-//             <p className="text-gray-300 leading-relaxed">
-//               The construction process balanced structural integrity with
-//               spiritual symbolism, ensuring the temple stands as a sacred space
-//               for centuries to come.
-//             </p>
-//           </div>
-
-//           {/* CRAFT IMAGE */}
-//           <div>
-//             <img
-//               src="/projects/project_1.jpg"
-//               alt="Craft Detail"
-//               className="rounded-2xl shadow-lg"
-//             />
-//           </div>
-//         </div>
-
-//         {/* CTA */}
-//         <div className="text-center">
-//           <h3 className="text-2xl md:text-3xl font-serif text-[#D1BFA7] mb-4">
-//             Inspired by this Project?
-//           </h3>
-//           <p className="text-gray-300 mb-8">
-//             Let us help you bring your vision to life through timeless stone craftsmanship.
-//           </p>
-//           <button className="px-10 py-4 rounded-full bg-gradient-to-r from-[#D1BFA7] to-[#B89B72] text-[#2E2E2E] font-medium hover:scale-105 transition">
-//             Discuss Your Project
-//           </button>
-//         </div>
-
-//       </div>
-//     </section>
-//     <Footer/>
-//     </div>
-//   );
-// };
-
-// const Meta = ({ title, value }) => (
-//   <div>
-//     <p className="text-sm uppercase tracking-wider text-gray-400 mb-1">
-//       {title}
-//     </p>
-//     <p className="text-lg text-[#F2F2F2]">{value}</p>
-//   </div>
-// );
-
-// export default ProjectDetails;
-
-
-
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 
@@ -161,13 +65,13 @@ const ProjectDetails = () => {
 
           <div className="mb-10 sm:mb-12 md:mb-14">
 
-            <p
+            {/* <p
               className="text-xs sm:text-sm uppercase
                          tracking-[0.15em] sm:tracking-[0.2em]
                          text-gray-400 mb-3 sm:mb-4"
             >
               {project.style}
-            </p>
+            </p> */}
 
             <h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
@@ -218,70 +122,97 @@ const ProjectDetails = () => {
               value={project.material}
             />
 
-            <Meta
+            {/* <Meta
               title="Style"
               value={project.style}
-            />
+            /> */}
 
           </div>
 
 
-          {/* PROJECT STORY */}
+
+      {/* PROJECT STORY CARD */}
+
+      <div className="mb-16 sm:mb-20 md:mb-24">
+
+        <div
+          className="grid grid-cols-1 lg:grid-cols-2
+                    rounded-2xl
+                    overflow-hidden
+                    border border-white/10
+                    bg-white/[0.03]
+                    shadow-xl"
+        >
+
+          {/* STORY TEXT — LEFT SIDE */}
 
           <div
-            className="grid grid-cols-1
-                       md:grid-cols-2
-                       gap-10 sm:gap-12 md:gap-16
-                       mb-16 sm:mb-20 md:mb-24"
+            className="min-w-0
+                      p-5 sm:p-7 md:p-10 lg:p-12
+                      flex flex-col justify-center"
           >
 
-            {/* STORY TEXT */}
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl
+                        font-serif
+                        text-[#D1BFA7]
+                        mb-5 sm:mb-6
+                        leading-tight"
+            >
+              Project Story
+            </h2>
 
-            <div>
-
-              <h2
-                className="text-2xl sm:text-3xl
-                           font-serif
-                           text-[#D1BFA7]
-                           mb-5 sm:mb-6"
+            {project.story.map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-sm sm:text-base
+                          text-gray-300
+                          leading-7 sm:leading-8
+                          mb-4 sm:mb-5
+                          last:mb-0
+                          text-left sm:text-justify
+                          break-words"
               >
-                Project Story
-              </h2>
-
-              {project.story.map((paragraph, index) => (
-
-                <p
-                  key={index}
-                  className="text-sm sm:text-base
-                             text-gray-300
-                             leading-relaxed
-                             mb-5 sm:mb-6"
-                >
-                  {paragraph}
-                </p>
-
-              ))}
-
-            </div>
-
-
-            {/* FEATURE IMAGE */}
-
-            <div className="flex items-start justify-center "> 
-            
-
-              <img
-                src={project.storyImage.src}
-                alt={project.storyImage.title}
-                className="w-full h-full
-                           object-cover
-                           rounded-2xl
-                           shadow-lg"
-              />
-
-            </div>
+                {paragraph}
+              </p>
+            ))}
 
           </div>
+
+
+    {/* FEATURE IMAGE — RIGHT SIDE */}
+
+    <div
+      className="min-w-0
+                 min-h-[240px]
+                 sm:min-h-[320px]
+                 lg:min-h-full
+                 flex items-center justify-center
+                 p-4 sm:p-6 lg:p-8
+                 bg-black/10"
+    >
+
+      <img
+        src={project.storyImage.src}
+        alt={project.storyImage.title || project.title}
+        loading="lazy"
+        decoding="async"
+        className="block
+                   w-full
+                   h-auto
+                   max-h-[300px]
+                   sm:max-h-[400px]
+                   lg:max-h-[550px]
+                   object-contain
+                   rounded-xl"
+      />
+
+    </div>
+
+  </div>
+
+</div>
+
 
 
           {/* PROJECT SHOWCASE */}
@@ -333,25 +264,22 @@ const ProjectDetails = () => {
                 >
 
                   {/* IMAGE */}
-
-                  <div
-                    className="h-[300px]
-                               sm:h-[330px]
-                               md:h-[380px]
-                               flex items-center justify-center
-                               overflow-hidden
-                               py-5 sm:py-6 md:py-8"
-                  >
-
-                    <img
-                      src={image.src}
-                      alt={image.title}
-                      className="w-full h-full
-                                 object-contain"
-                    />
-
-                  </div>
-
+                    <div
+                      className="h-[300px]
+                                sm:h-[330px]
+                                md:h-[380px]
+                                flex items-center justify-center
+                                overflow-hidden
+                                p-4 sm:p-5"
+                    >
+                      <img
+                        src={image.src}
+                        alt={image.title || `${project.title} detail ${index + 1}`}
+                        loading="lazy"
+                        decoding="async"
+                        className="block max-w-full max-h-full object-contain"
+                      />
+                    </div>
 
                   {/* IMAGE DETAILS */}
 
@@ -483,3 +411,6 @@ const Meta = ({ title, value }) => (
 
 
 export default ProjectDetails;
+
+
+

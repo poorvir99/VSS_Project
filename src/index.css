@@ -16,9 +16,10 @@
   } */
 
   body {
+      margin: 0;
     background: linear-gradient(135deg, #2E2E2E 10%, #1E3A5F 90%);
 
-    transition: background 0.7s ease-in-out;
+    /* transition: background 0.7s ease-in-out; */
   } 
   
 

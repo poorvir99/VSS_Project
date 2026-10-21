@@ -29,7 +29,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p className="text-sm text-white/70 mt-1">
+        <p className="text-sm text-white/70 ">
           Where Passion meets Precision.
         </p>
       </div>

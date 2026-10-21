@@ -2,12 +2,16 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-   "images/first_carousel_pic.jpg",
-  "images/ganesha_3.jpg",
-  "/images/buddha.jpg",
-   "/images/artifacts.jpg",
-  "/images/buddha_statue.jpg",
-  "/images/leaf_buddha.jpg",
+   "images/carousel_images/ganesha_carousel_pic.jpeg",
+     "/images/carousel_images/grey_buddha_carousel_pic.jpeg",
+     "/images/carousel_images/Hanuman.jpeg",
+      "images/carousel_images/black_buddha_carousel_pic.jpeg",
+       "/images/carousel_images/eshwara_carousel_pic.jpeg",
+     "/images/carousel_images/leaf_buddha.jpeg",
+     "/images/carousel_images/chennigaraya_swami.jpeg",
+   "/images/carousel_images/artifacts.jpg",
+  "/images/carousel_images/buddha_statue.jpg",
+
 ];
 
 const ImageCarousel = () => {
@@ -43,7 +47,7 @@ const ImageCarousel = () => {
             inset-0
             w-full
             h-full
-            object-cover
+            object-contain
             rounded-xl
           "
           initial={{ opacity: 0 }}

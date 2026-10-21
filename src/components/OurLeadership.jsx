@@ -1,239 +1,222 @@
-import Footer from "./Footer";
+
 import Header from "./Header";
+import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
-
-
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const teamMembers = [
   {
-    img: "/images/Team/Abhishek_Karkala_CEO.jpeg",
+    img: "/images/Team/Abhishek_Karkala_CEO.png",
     name: "Abhishek Karkala",
-    education:"B.E. (Civil)",
+    education: "B.E. (Civil)",
     role: "Chief Executive Officer (CEO)",
     description:
       "Overseeing the organization's growth while balancing traditional craftsmanship with modern approaches.",
-      linkedin: "https://www.linkedin.com/in/chairman-profile/",
   },
   {
     img: "/images/Team/Akshay_K_COO.jpeg",
     name: "Akshay K",
-    education:"B.E. (Civil), M.Tech (CEM), MBA (Germany)",
+    education: "B.E. (Civil), M.Tech (CEM), MBA (Germany)",
     role: "Chief Operating Officer (COO)",
     description:
       "Managing operations and ensuring excellence in the execution of projects and craftsmanship.",
-      linkedin: "https://www.linkedin.com/in/akshay-k-ak4407/",
   },
 ];
 
+const OurLeadership = () => {
+  return (
+    <div className="min-h-screen overflow-x-clip bg-transparent text-[#F2F2F2]">
+      <Header />
 
+      <hr className="w-full border-t border-white/15" />
 
+      <main className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10 lg:py-16">
 
-const OurLeadership = ()=>{
- return(
-  <div>
-    <Header/>
-     <hr className="border-gray-500 border-t-[0.9px] w-full mx-auto opacity-30" />
-     <main className="max-w-6xl mx-auto px-6">
+        {/* PAGE INTRO */}
+        <section className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
+          <h1 className="font-serif text-3xl leading-tight text-[#D1BFA7] sm:text-4xl lg:text-5xl">
+            Our Leadership
+          </h1>
 
-          <h1 className="mt-20 mb-5 text-center text-3xl font-serif text-[#D1BFA7]">Our Leadership</h1>
-          <p className= "mb-20 text-center text-white/80 leading-relaxed">Meet the people whose vision, expertise, and dedication continue to shape the future of Vijaya Shilpa Shala.</p>
-              
-                                      {/* Chairman Introduction */}
-          
-                    
-                    {/* Chairman Section */}
-                    <section className=" chairman intro mt-10">
-                    <div
-                        className="
-                        flex flex-col gap-6
-                        rounded-2xl border border-white/10
-                        bg-white/5 p-6 shadow-lg backdrop-blur-md
-                        transition-all duration-300 ease-in-out
-                        hover:border-[#D1BFA7]/40
-                        hover:shadow-xl
-                        md:flex-row md:gap-8 md:p-8
-                        "
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-white/75 sm:text-base">
+            Meet the people whose vision, expertise, and dedication continue
+            to shape the future of Vijaya Shilpa Shala.
+          </p>
+        </section>
+
+        {/* CHAIRMAN SECTION */}
+        <section aria-labelledby="chairman-heading">
+          <div
+            className="
+              rounded-2xl border border-white/10
+              bg-white/[0.04] p-5 shadow-lg
+              backdrop-blur-md transition-colors duration-300
+              hover:border-[#D1BFA7]/30
+              sm:p-7 md:p-8 lg:p-10
+            "
+          >
+            <div className="flex min-w-0 flex-col items-center gap-8 md:flex-row md:items-start md:gap-10 lg:gap-14">
+              {/* CHAIRMAN IMAGE AND DETAILS */}
+              <div className="flex w-full min-w-0 flex-col items-center text-center md:w-64 md:shrink-0">
+                <div className="w-full max-w-[260px] overflow-hidden rounded-xl border border-white/10 bg-black/10 p-2 sm:max-w-[280px] md:max-w-none">
+                  <img
+                    src="/images/Team/K_Sathish_Chairman.png"
+                    alt="Shri K. Sathish Acharya, Chairman of Vijaya Shilpa Shala"
+                    loading="lazy"
+                    className="
+                      aspect-square h-auto w-full
+                      rounded-lg object-cover
+                    "
+                  />
+                </div>
+
+                <p className="mt-5 text-xs font-medium uppercase tracking-[0.2em] text-white/55">
+                  Chairman
+                </p>
+
+                <h2 className="mt-2 max-w-full break-words font-serif text-xl leading-snug text-[#D1BFA7] sm:text-2xl">
+                 Shilpi K. Sathish Acharya
+                </h2>
+
+                <p className="mt-2 text-sm text-white/60">
+                  D.E.E.
+                </p>
+              </div>
+
+              {/* CHAIRMAN BIOGRAPHY */}
+              <div className="min-w-0 flex-1 self-stretch md:border-l md:border-white/10 md:pl-8 lg:pl-10">
+                <h3
+                  id="chairman-heading"
+                  className="font-serif text-2xl text-[#D1BFA7] sm:text-3xl"
+                >
+                  Meet the Chairman
+                </h3>
+
+                <div className="mt-5 space-y-4 text-sm leading-7 text-white/75 sm:text-base sm:leading-8  text-justify">
+                  <p>
+                    Shilpi K. Sathish Acharya is a traditional Indian sculptor from Karkala, Karnataka, 
+                    belonging to a distinguished lineage of artisans dedicated to preserving India’s rich sculptural 
+                    and temple-building heritage. He is the son of Shilpi Guru K. Shamaraya Acharya, former Chartered 
+                    President of the Karnataka Shilpa Kala Academy, Government of Karnataka, and founder of Vijaya Shilpa Shala, 
+                    established on Vijayadashami in 1964.
+                  </p>
+
+                  <p>
+                    Trained under the guidance of his father, 
+                    K. Sathish Acharya has carried forward the traditional knowledge and craftsmanship
+                     of Shilpa Shastra, with a focus on stone sculpture and temple architecture. 
+                     His work reflects a deep respect for traditional artistic principles, precision, 
+                     and the spiritual significance of Indian temple art.
+
+                  </p>
+
+                  <p>
+                    Beyond his artistic practice, he has been actively involved in community and cultural organisations, 
+                    including the Rotaract Club and Rotary Club of Karkala. He has also served as Managing Trustee of Sri Kalikamba Temple, Karkala,
+                     reflecting his commitment to the cultural and spiritual traditions of his community.
+                  </p>
+                  <p>
+                    Through his craftsmanship and dedication, Shilpi K. Sathish Acharya continues the legacy of Vijaya Shilpa Shala,
+                     contributing to the preservation and continuation of India’s traditional stone-carving and temple-art traditions for future generations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* EXECUTIVE TEAM */}
+        <section className="mb-8 mt-16 sm:mt-20 lg:mt-24" aria-labelledby="executive-heading">
+          <div className="mx-auto mb-9 max-w-2xl text-center sm:mb-12">
+            <h2
+              id="executive-heading"
+              className="font-serif text-2xl text-[#D1BFA7] sm:text-3xl"
+            >
+              Meet Our Executive Team
+            </h2>
+
+            <p className="mt-3 text-sm leading-6 text-white/65 sm:text-base">
+              Meet the team driving our operations and delivering projects
+              with care and expertise.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 items-stretch gap-6 sm:gap-8 md:grid-cols-2">
+            {teamMembers.map((member) => (
+              <article
+                key={member.name}
+                className="
+                  flex min-w-0 flex-col overflow-hidden rounded-2xl
+                  border border-white/10 bg-white/[0.04]
+                  shadow-lg backdrop-blur-md
+                  transition duration-300 ease-out
+                  hover:-translate-y-1 hover:border-[#D1BFA7]/35
+                  hover:shadow-xl
+                "
+              >
+                {/* TEAM IMAGE */}
+                <div className="flex justify-center px-5 pt-7 sm:pt-8">
+                  <div className="h-36 w-36 overflow-hidden rounded-full border-2 border-[#D1BFA7]/40 bg-black/10 sm:h-40 sm:w-40">
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      loading="lazy"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* TEAM DETAILS */}
+                <div className="flex flex-1 flex-col p-5 text-center sm:p-7">
+                  <h3 className="break-words font-serif text-xl leading-snug text-[#D1BFA7] sm:text-2xl">
+                    {member.name}
+                  </h3>
+
+                  <p className="mt-2 break-words text-sm leading-6 text-white/55">
+                    {member.education}
+                  </p>
+
+                  <p className="mt-3 text-sm font-medium leading-6 text-white/80">
+                    {member.role}
+                  </p>
+
+                  <p className="mx-auto mt-4 max-w-lg text-left text-sm leading-7 text-white/70 sm:text-center sm:text-base">
+                    {member.description}
+                  </p>
+
+                  {/* LINKEDIN */}
+                  {/* <div className="mt-auto pt-6">
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`View ${member.name}'s LinkedIn profile`}
+                      className="
+                        inline-flex max-w-full items-center justify-center
+                        gap-2 rounded-md py-2 text-sm
+                        text-[#D1BFA7] transition-colors duration-200
+                        hover:text-white
+                        focus-visible:outline-none
+                        focus-visible:ring-2 focus-visible:ring-[#D1BFA7]
+                        focus-visible:ring-offset-2
+                        focus-visible:ring-offset-[#1E1E1E]
+                      "
                     >
-                        {/* Left Column: Chairman Image and Details */}
-                        <div className="w-full shrink-0 text-center md:w-64">
-                        <img
-                            src="/images/Team/K_Sathish_Chairman.jpeg"
-                            alt="K Sathish, Chairman of Vijaya Shilpa Shala"
-                            className="
-                            mx-auto h-64 w-full
-                            rounded-xl object-contain
-                            "
-                        />
+                      <FontAwesomeIcon icon={faLinkedin} />
+                      <span>View LinkedIn Profile</span>
+                    </a>
+                  </div> */}
 
-                          <p
-                            className="
-                            mt-5 text-xs font-serif
-                            uppercase tracking-[0.2em] 
-                            text-white/60
-                            "
-                        >
-                            Chairman
-                        </p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      </main>
 
-                        <h2
-                            className="
-                            mt-3 font-serif text-2xl
-                            text-[#D1BFA7]
-                            "
-                        >
-                            K. Sathish
-                        </h2>
-
-                        <p className="mt-2 text-sm text-white/60">
-                            D.E.E
-                        </p>
-
-                      
-                        </div>
-
-                        {/* Right Column: Chairman Biography */}
-                        <div className="min-w-0 flex-1 md:pt-1">
-                        <h3
-                            className="
-                            font-serif text-xl
-                            text-[#D1BFA7]
-                            "
-                        >
-                            Meet the Chairman
-                        </h3>
-
-                        <div
-                            className="
-                            mt-4 space-y-4
-                            text-justify leading-7
-                            text-white/80
-                            "
-                        >
-                            <p className="leading-relaxed">
-                            {/* Replace this paragraph with your existing Chairman biography. */}
-                            With a commitment to preserving traditional craftsmanship
-                            while embracing modern approaches, the Chairman plays an
-                            important role in guiding the organization's vision and
-                            long-term growth.
-                            </p>
-
-                            <p className="leading-relaxed">
-                            {/* Add another paragraph here if required. */}
-                            His leadership reflects the organization's dedication to
-                            quality, cultural heritage, and excellence in sculpture
-                            and architectural craftsmanship.
-                            </p>
-                              <p className="leading-relaxed">
-                            {/* Add another paragraph here if required. */}
-                            His leadership reflects the organization's dedication to
-                            quality, cultural heritage, and excellence in sculpture
-                            and architectural craftsmanship.
-                            </p>
-                            
-                            
-                        </div>
-                        </div>
-                    </div>
-                    </section>
-
-
-
-                  {/* ================= OUR EXECUTIVE TEAM ================= */}
-                   <section className="max-w-6xl mx-auto mb-20 mt-20">
-         
-                     <h3 className="text-2xl font-serif text-center text-[#D1BFA7] mb-10">
-                       Meet Our Executive Team
-                     </h3>
-         
-                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-         
-                       {teamMembers.map((member, id) => (
-                         <div
-                           key={member.id}
-                           className="
-                             bg-white/5
-                             backdrop-blur-md
-                             border border-white/10
-                             rounded-2xl
-                             overflow-hidden
-                             shadow-lg
-                             hover:scale-[1.02]
-                             transition
-                             duration-300
-                           "
-                         >
-         
-                           {/* TEAM IMAGE */}
-                           <div className="flex justify-center pt-6 px-6">
-                             <img
-                               src={member.img}
-                               alt={member.name}
-                               className="
-                                 w-40
-                                 h-40
-                                 sm:w-44
-                                 sm:h-44
-                                 rounded-full
-                                 object-cover
-                                 border-2
-                                 border-[#D1BFA7]/40
-                               "
-                             />
-                           </div>
-         
-                           {/* TEAM DETAILS */}
-                           <div className="p-6 text-center">
-         
-                             <h4 className="text-xl font-serif text-[#D1BFA7] mb-1">
-                               {member.name}
-                             </h4>
-         
-                              <p className="text-sm text-white/50 mb-2">
-                               {member.education}
-                             </p>
-         
-                             <p className="text-sm text-white/60 mb-4">
-                               {member.role}
-                             </p>
-         
-                             <p className="text-sm text-white/70 leading-relaxed text-justify mb-5">
-                               {member.description}
-                             </p>
-         
-                             {/* LINKEDIN */}
-                             <a
-                               href={member.linkedin}
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               className="
-                                 inline-flex
-                                 items-center
-                                 gap-2
-                                 text-sm
-                                 text-[#D1BFA7]
-                                 hover:text-white
-                                 transition
-                               "
-                             >
-                               <FontAwesomeIcon icon={faLinkedin} />
-                               <span>View LinkedIn Profile</span>
-                             </a>
-         
-                           </div>
-         
-                         </div>
-                       ))}
-         
-                     </div>
-                   </section>
-
-     </main>
-    
-    <Footer/>
-  </div>
- );
-}
+      <Footer />
+    </div>
+  );
+};
 
 export default OurLeadership;

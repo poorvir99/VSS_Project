@@ -22,17 +22,6 @@ const GalleryCategory = () => {
         <h1 className="text-4xl font-serif text-[#D1BFA7] text-center mb-16">
           {data.title}
         </h1>
-
-        {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {data.images.map((img, i) => (
-            <img
-              key={i}
-              src={img}
-              alt={data.title}
-              className="rounded-xl h-[280px] w-full object-cover shadow-lg hover:scale-[1.02] transition"
-            />
-          ))}
-        </div> */}
       <GalleryBackButton/>
 
         <div className="columns-1 sm:columns-2 md:columns-3 gap-6">

@@ -7,41 +7,11 @@ import { Link } from "react-router-dom";
 
 
 const historyImgs = [
-     "/images/K_Shyamaraya_Acharya_sculpturing.jpeg",
-  "/images/buddha_K_sathish_.sculpting.jpeg",
-     "/images/budha_huge.jpeg"
+     "/images/Team/K_Shyamaraya_Acharya_sculpturing.jpeg",
+  "/images/Team/K_sathish_.sculpting_buddha.jpeg",
+     "/images/Team/budha_huge.jpeg"
  
 ];
-
-// const teamMembers = [
-//   {
-//     img: "/images/Team/Sathish_K_Chairman.jpeg",
-//     name: "K Sathish",
-//     education: "D.E.E",
-//     role: "Chairman",
-//     description:
-//       "Leading the firm with a vision to preserve traditional craftsmanship and carry forward its rich artistic heritage.",
-//       linkedin: "https://www.linkedin.com/in/chairman-profile/",
-//   },
-//   {
-//     img: "/images/Team/Abhishek_Karkala_CEO.jpeg",
-//     name: "Abhishek Karkala",
-//     education:"B.E. (Civil)",
-//     role: "Chief Executive Officer (CEO)",
-//     description:
-//       "Overseeing the organization's growth while balancing traditional craftsmanship with modern approaches.",
-//       linkedin: "https://www.linkedin.com/in/chairman-profile/",
-//   },
-//   {
-//     img: "/images/Team/Akshay_K_COO.jpeg",
-//     name: "Akshay K",
-//     education:"B.E. (Civil), M.Tech (CEM), MBA (Germany)",
-//     role: "Chief Operating Officer (COO)",
-//     description:
-//       "Managing operations and ensuring excellence in the execution of projects and craftsmanship.",
-//       linkedin: "https://www.linkedin.com/in/akshay-k-ak4407/",
-//   },
-// ];
 
 const achievements = [
   {
@@ -54,25 +24,42 @@ const achievements = [
     title: "Karnataka Rajyotsava Prashasthi in 1991",
     desc: "Honored in 1991 for lifetime contribution to stone sculpture.",
   },
-  {
+  
+    {
+    img: "/images/Achievements/Siveli_kerala.jpeg",
+    title: "Siveli Mantapa at Sri Guruvayur Temple,Kerala",
+    desc: "The Siveli Mantapa at Sri Guruvayur Devastana, Kerala, was visited by Sri S. M. Krishna, the then Honorable Chief Minister of Karnataka, on 13 September 2001.",
+  },
+    {
     img: "/images/Achievements/Award_2.jpeg",
     title: "Cultural Heritage Recognition",
     desc: "For preserving temple architecture and sculptural traditions.",
+  },
+   {
+    img: "/images/Achievements/Jakanachari_award_k_sathish.jpeg",
+    title: "Jakanachari Award",
+    desc: "Received the prestigious Jakanachari Award , a state honor presented by the Government of Karnataka to recognize talented sculptors and craftsmen.",
+  },
+   {
+    img: "/images/Achievements/Shilpashree_award_k_sathish.jpeg",
+    title: "Shilpashree Award in 2022",
+    desc: "A prestigious state-level honor presented by the Karnataka Shilpakala Academy to recognize and celebrate sculptors for their notable contributions to traditional and contemporary sculpture",
   },
     {
     img: "/images/Achievements/Reliance_project.jpeg",
     title: "Guruvayur Temple Shiveli Mantapa",
     desc: "Crafted under patronage of Mrs. Kokilaben Dhirubhai Ambani.",
   },
-   {
-    img: "/images/Achievements/Award_2.jpeg",
-    title: "Jakanachari Award",
-    desc: "For preserving temple architecture and sculptural traditions.",
+
+     {
+    img: "/images/Achievements/Chandraprabha.png",
+    title: "Chandraprabha Teertankar in Tijara",
+    desc: "The 17-ft Chandraprabha Tirthankara sculpture in Tijara, Rajasthan, is carved from Karkala Grey Granite, showcasing exceptional craftsmanship and spiritual grandeur.",
   },
-   {
-    img: "/images/Achievements/Award_2.jpeg",
-    title: "Karnataka Rajyotsava Prashasthi",
-    desc: "For preserving temple architecture and sculptural traditions.",
+     {
+    img: "/images/Achievements/Mahavira.jpeg",
+    title: "Mahaveer Sculpture in Ahinsa Sthal, Delhi",
+    desc: "A 13 ft 6 in Mahaveer sculpture carved from Red Granite, elevated on a 2 ft 8 in lotus pedestal, showcasing remarkable stone craftsmanship and spiritual elegance.",
   },
  
 ];
@@ -174,94 +161,6 @@ const AboutUs = () => {
           </div>
         </section>
 
-                  {/* ================= OUR TEAM ================= */}
-          {/* <section className="max-w-6xl mx-auto">
-
-            <h3 className="text-2xl font-serif text-center text-[#D1BFA7] mb-10">
-              Our Team
-            </h3>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-
-              {teamMembers.map((member, idx) => (
-                <div
-                  key={idx}
-                  className="
-                    bg-white/5
-                    backdrop-blur-md
-                    border border-white/10
-                    rounded-2xl
-                    overflow-hidden
-                    shadow-lg
-                    hover:scale-[1.02]
-                    transition
-                    duration-300
-                  "
-                > */}
-
-                  {/* TEAM IMAGE */}
-                  {/* <div className="flex justify-center pt-6 px-6">
-                    <img
-                      src={member.img}
-                      alt={member.name}
-                      className="
-                        w-40
-                        h-40
-                        sm:w-44
-                        sm:h-44
-                        rounded-full
-                        object-cover
-                        border-2
-                        border-[#D1BFA7]/40
-                      "
-                    />
-                  </div> */}
-
-                  {/* TEAM DETAILS */}
-                  {/* <div className="p-6 text-center">
-
-                    <h4 className="text-xl font-serif text-[#D1BFA7] mb-1">
-                      {member.name}
-                    </h4>
-
-                     <p className="text-sm text-white/50 mb-2">
-                      {member.education}
-                    </p>
-
-                    <p className="text-sm text-white/60 mb-4">
-                      {member.role}
-                    </p>
-
-                    <p className="text-sm text-white/70 leading-relaxed text-justify mb-5">
-                      {member.description}
-                    </p> */}
-
-                    {/* LINKEDIN */}
-                    {/* <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="
-                        inline-flex
-                        items-center
-                        gap-2
-                        text-sm
-                        text-[#D1BFA7]
-                        hover:text-white
-                        transition
-                      "
-                    >
-                      <FontAwesomeIcon icon={faLinkedin} />
-                      <span>View LinkedIn Profile</span>
-                    </a>
-
-                  </div>
-
-                </div>
-              ))}
-
-            </div>
-          </section> */}
 
         {/* ================= ACHIEVEMENTS ================= */}
         <section className="max-w-6xl mx-auto">

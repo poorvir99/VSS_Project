@@ -2,8 +2,8 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const founderImg = "/images/Shilpi_K_Shyaraya_Acharya.JPG";
-const founderImg2 = "/images/shilpaguru_K_Shyamaraya_Acharya.jpeg";
+const founderImg = "/images/Team/Shilpi_K_Shyaraya_Acharya.JPG";
+const founderImg2 = "/images/Team/shilpaguru_K_Shyamaraya_Acharya.jpeg";
 
 const Founder = () => {
   return (
@@ -122,7 +122,7 @@ const Founder = () => {
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>13-ft Mahaveer sculpture in Ahinsa Sthal, Delhi</span>
+                  <span>13 ft 6 in Mahaveer sculpture in Ahinsa Sthal, Delhi</span>
                 </li>
 
                 <li className="flex gap-3">
@@ -132,7 +132,7 @@ const Founder = () => {
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>Jakanachari Award (2000)</span>
+                  <span>Jakanachari Award (1999)</span>
                 </li>
 
                 <li className="flex gap-3">

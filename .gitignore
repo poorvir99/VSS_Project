@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 
-# Ignore VSS website images
-/public/images/
-/public/projects/
 
+.env
+.env.*
+!.env.example

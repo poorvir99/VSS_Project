@@ -5,7 +5,7 @@ const awardsData = [
     description:"Conferred with the National ShilpGuru Award in recognition of exceptional contribution to traditional Indian handicrafts and sculptural craftsmanship.",
   },
   {
-    year: "2000",
+    year: "1999",
     title: "Jakanachari Award",
     description: "Received the prestigious Jakanachari Award, a state honor presented by the Government of Karnataka to recognize talented sculptors and craftsmen."
   },
