@@ -185,7 +185,7 @@ const projectsData = [
     material: "Sira Grey Granite",
    
 
-    coverImage: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.png",
+    coverImage: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.jpeg",
 
     story: [
       "The Sri Gopalakrishna Temple showcases the beauty of Sira Grey Granite through its intricately crafted gopura and pillars. Each element reflects skilled stone craftsmanship, combining architectural elegance, structural strength, and the timeless appeal of traditional temple architecture.",
@@ -193,29 +193,29 @@ const projectsData = [
 
       // Image used beside Project Story
     storyImage: {
-      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.png",
+      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.jpeg",
       title: "Sri GopalaKrishna Temple",
     },
 
    // Showcase_Images
     images: [
     {
-      src:  "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.png",
+      src:  "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi.jpeg",
       title: "Gopura",
        stone_type:"Sira Grey Granite",
     },
     {
-      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi_2.png",
+      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi_2.jpeg",
       title: "Gopura",
        stone_type:"Sira Grey Granite",
     },
     {
-      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi_pillar.png",
+      src: "/projects/temple_6_sirsi/gopalakrishna_temple_sirsi_pillar.jpeg",
       title: "Pillars",
        stone_type: "Sira Grey Granite",
     },
     {
-      src: "/projects/temple_6_sirsi/construction_site_sirsi.png",
+      src: "/projects/temple_6_sirsi/construction_site_sirsi.jpeg",
       title: "Construction Site",
        stone_type:"Sira Grey Granite",
     },

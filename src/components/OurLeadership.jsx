@@ -180,7 +180,7 @@ const OurLeadership = () => {
                     {member.role}
                   </p>
 
-                  <p className="mx-auto mt-4 max-w-lg text-left text-sm leading-7 text-white/70 sm:text-center sm:text-base">
+                  <p className="mx-auto mt-4 text-center max-w-lg text-sm leading-7 text-white/70 sm:text-center sm:text-base">
                     {member.description}
                   </p>
 
