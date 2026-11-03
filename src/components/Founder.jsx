@@ -59,17 +59,17 @@ const Founder = () => {
               </h3>
 
               <p className="text-sm sm:text-base text-white/80 leading-7 text-justify">
-                ShilpGuru K. Shamaraya Acharya is a distinguished traditional
+              <span  className="text-[#D1BFA7]"> ShilpGuru K. Shamaraya Acharya </span> is a distinguished traditional
                 sculptor and master craftsman whose life and work embody the
-                highest ideals of Indian sculptural heritage. Trained under
-                Renjala Gopala Shenoy, he devoted decades to mastering and
+                highest ideals of Indian sculptural heritage.<span className="text-[#D1BFA7]"> Trained under
+                Renjala Gopala Shenoy, </span> he devoted decades to mastering and
                 practicing the principles of Shilpa Shastra.
               </p>
 
               <p className="text-sm sm:text-base text-white/80 leading-7 text-justify">
                 Renowned for his skill, discipline, and deep understanding of form and proportion, 
                 Shamaraya Acharya played a vital role in preserving traditional sculptural techniques. 
-                From 1995 to 1998, he also served as the President of the Karnataka Shilpakala Academy, 
+                <span  className="text-[#D1BFA7]"> He was appointed as a Chartered President of the Karnataka Shilpakala Academy a body of Karnataka State Government from 1995 to 1998, </span>
                 contributing to the promotion and preservation of Karnataka’s rich sculptural traditions. 
                 His work reflects spiritual depth, technical precision, and unwavering respect for tradition.
               </p>
@@ -85,9 +85,9 @@ const Founder = () => {
 
               <p className="text-sm sm:text-base text-white/80 leading-7 text-justify">
                 In recognition of his lifelong service to traditional arts and
-                culture, he was honored with the ShilpGuru Award by the
+                culture, <span  className="text-[#D1BFA7]"> he was honored with the ShilpGuru Award by the
                 Government of India and the Jakanacharya Award by the Karnataka
-                State Government, affirming his status as a custodian of
+                State Government, </span> affirming his status as a custodian of
                 cultural heritage and a guiding light for future generations.
               </p>
 
@@ -113,31 +113,35 @@ const Founder = () => {
               <div className="w-16 h-[1px] bg-[#D1BFA7]/50" />
 
               {/* Achievements */}
-              <ul className="space-y-3 text-sm sm:text-base text-white/85">
-
+              <ul className="space-y-3 text-sm sm:text-base text-white/85">   
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>Created 10,000+ sculptures across India & abroad</span>
+                  <span className="text-[#D1BFA7]">Created 10,000+ sculptures across India & abroad</span>
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>13 ft 6 in Mahaveer sculpture in Ahinsa Sthal, Delhi</span>
+                  <span className="text-[#D1BFA7]">Chartered President of the Karnataka Shilpakala Academy a body of Karnataka State Government from 1995 to 1998.</span>
+                </li>
+                
+                <li className="flex gap-3">
+                  <span className="text-[#D1BFA7]">•</span>
+                  <span className="text-[#D1BFA7]">14-ft in Mahaveer sculpture in Ahinsa Sthal, Delhi</span>
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>17-ft Chandraprabha Teertankar in Tijara, alwer, Rajasthan</span>
+                  <span className="text-[#D1BFA7]">17-ft Chandraprabha Teertankar in Tijara, alwer, Rajasthan</span>
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>Jakanachari Award (1999)</span>
+                  <span className="text-[#D1BFA7]">Jakanachari Award (1999)</span>
                 </li>
 
                 <li className="flex gap-3">
                   <span className="text-[#D1BFA7]">•</span>
-                  <span>Karnataka Rajyotsava & Shila Shilpi Awards</span>
+                  <span className="text-[#D1BFA7]">Karnataka Rajyotsava & Shila Shilpi Awards</span>
                 </li>
 
               </ul>

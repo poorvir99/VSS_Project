@@ -96,9 +96,8 @@ const OurLeadership = () => {
                   <p>
                     Shilpi K. Sathish Acharya is a traditional Indian sculptor from Karkala, Karnataka, 
                     belonging to a distinguished lineage of artisans dedicated to preserving India’s rich sculptural 
-                    and temple-building heritage. He is the son of Shilpi Guru K. Shamaraya Acharya, former Chartered 
-                    President of the Karnataka Shilpa Kala Academy, Government of Karnataka, and founder of Vijaya Shilpa Shala, 
-                    established on Vijayadashami in 1964.
+                    and temple-building heritage. He is the son of ShilpGuru K. Shamaraya Acharya, former Chartered 
+                    President of the Karnataka Shilpa Kala Academy, Government of Karnataka, and founder of Vijaya Shilpa Shala.
                   </p>
 
                   <p>

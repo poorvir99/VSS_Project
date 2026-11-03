@@ -13,7 +13,7 @@ const IMAGES = [
 
 const WhatWeOffer =  () => {
     const services = [
-      { icon: IMAGES[0] , title: 'Sculptures & Artifacts', description:"We craft intricate stone, metal, and bronze sculptures, preserving cultural heritage and enhancing spiritual and artistic spaces." },
+      { icon: IMAGES[0] , title: 'Sculptures & Artifacts', description:"We craft intricate stone and metal sculptures, preserving cultural heritage and enhancing spiritual and artistic spaces." },
       { icon: IMAGES[1] , title: 'Temple Architects & Contractors',description:"From planning to construction, we specialize in building authentic temples with precision, traditional carvings, and Vastu-aligned designs." },
       { icon: IMAGES[2] , title: 'Landscape Design',description:"We create visually stunning and serene outdoor spaces, integrating natural elements with artistic sculptures and traditional aesthetics." },
       { icon: IMAGES[3] , title: 'Architecture',description:"Our architectural designs blend heritage and modernity, ensuring functionality, durability, and timeless beauty in every structure. " },

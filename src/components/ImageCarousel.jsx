@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const images = [
+   "/images/carousel_images/ganesha_1.jpeg",
+     "/images/carousel_images/grey_buddha_carousel_pic.jpeg",
   "/images/carousel_images/ganesha_carousel_pic.jpeg",
-  "/images/carousel_images/grey_buddha_carousel_pic.jpeg",
+   "/images/carousel_images/buddha_carousel_pic.jpeg",
   "/images/carousel_images/Hanuman.jpeg",
-  "/images/carousel_images/buddha_carousel_pic.jpeg",
+    "/images/carousel_images/artifacts.jpg",
   "/images/carousel_images/eshwara_carousel_pic.jpeg",
   "/images/carousel_images/chennigaraya_swami.jpeg",
-  "/images/carousel_images/artifacts.jpg",
   "/images/carousel_images/finger.jpg",
 ];
 

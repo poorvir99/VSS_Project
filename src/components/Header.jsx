@@ -18,7 +18,7 @@ const Header = () => {
         className="
           max-w-7xl
           mx-auto
-          px-3
+          px-3 
           min-[375px]:px-4
           sm:px-6
           md:px-6
@@ -44,8 +44,8 @@ const Header = () => {
             src="/logo.png"
             alt="Vijaya Shilpa Shala"
             className="
-              w-[60px]
-              min-[375px]:w-[70px]
+              w-[75px]
+              min-[375px]:w-[85px]
               sm:w-[80px]
               md:w-[85px]
               lg:w-[95px]
@@ -231,9 +231,9 @@ const Header = () => {
             min-[1100px]:hidden
             shrink-0
             flex items-center justify-center
-            w-10 h-10
-            sm:w-11 sm:h-11
-            text-2xl
+            w-12 h-12
+            sm:w-12 sm:h-12
+            text-3xl
             text-[#F2F2F2]
             hover:text-[#D1BFA7]
             transition

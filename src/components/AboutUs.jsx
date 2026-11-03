@@ -59,7 +59,7 @@ const achievements = [
      {
     img: "/images/Achievements/Mahavira.jpeg",
     title: "Mahaveer Sculpture in Ahinsa Sthal, Delhi",
-    desc: "A 13 ft 6 in Mahaveer sculpture carved from Red Granite, elevated on a 2 ft 8 in lotus pedestal, showcasing remarkable stone craftsmanship and spiritual elegance.",
+    desc: "A 14-ft in Mahaveer sculpture carved from Red Granite, elevated on a 2 ft 8 in lotus pedestal, showcasing remarkable stone craftsmanship and spiritual elegance.",
   },
  
 ];
