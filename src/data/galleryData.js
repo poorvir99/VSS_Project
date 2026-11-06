@@ -4,7 +4,6 @@ deity: {
     images: [
       "/images/Deity/ganesha_2.jpg",
       "/images/Deity/krishna.jpg",
-       "/images/Deity/BITHI_MANTAPA.png",
         "/images/Deity/hanuman.jpg",
          "/images/Deity/mookambika.jpg",
           "/images/Deity/Eshwara.jpg",
@@ -12,6 +11,11 @@ deity: {
           "/images/Deity/chennigaraya_swami.jpeg",
           "/images/Deity/gomateshwara.jpg",
             "/images/Deity/vishnu.jpeg",
+             "/images/Deity/venkataramana.jpeg",
+              "/images/Deity/durghe.jpeg",
+               "/images/Deity/devi_2.jpeg",
+                "/images/Deity/devi.jpeg",
+                 "/images/Deity/copper_deities.jpeg",
 
     ],
   },
