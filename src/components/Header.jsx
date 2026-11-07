@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative z-50 text-[#F2F2F2] w-full">
+    <header className="relative z-50 text-[#F2F2F2] w-full ">
 
       {/* ================= HEADER ================= */}
       <div
@@ -51,8 +51,10 @@ const Header = () => {
               lg:w-[95px]
               xl:w-[100px]
               h-auto
+              
             "
           />
+
         </Link>
 
         {/* ================= DESKTOP NAV ================= */}
@@ -171,6 +173,22 @@ const Header = () => {
             "
           >
             Projects
+          </Link>
+          
+          {/* Shilp Guru Project */}
+          <Link
+            to="/ShilpGuru"
+            onClick={closeMenu}
+            className="
+              relative py-2
+              hover:text-[#D1BFA7]
+              after:absolute after:left-0 after:-bottom-1
+              after:h-[1px] after:w-0 after:bg-[#D1BFA7]
+              hover:after:w-full
+              after:transition-all after:duration-300
+            "
+          >
+            Shilpa Guru Project
           </Link>
 
           {/* AWARDS */}
@@ -349,6 +367,16 @@ const Header = () => {
               className="py-3 border-b border-white/10 hover:text-[#D1BFA7] transition"
             >
               Projects
+            </Link>
+
+             
+            {/*  Shilp Guru Project */}
+            <Link
+              to="/ShilpGuru"
+              onClick={closeMenu}
+              className="py-3 border-b border-white/10 hover:text-[#D1BFA7] transition"
+            >
+               Shilpa Guru Project
             </Link>
 
             {/* AWARDS */}

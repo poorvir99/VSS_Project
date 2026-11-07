@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const teamMembers = [
   {
@@ -29,8 +30,10 @@ const OurLeadership = () => {
       <Header />
 
       <hr className="w-full border-t border-white/15" />
+      
+    <main className="bg-gradient-to-br from-[#2E2E2E] to-[#1E3A5F] text-white">
 
-      <main className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10 lg:py-16">
+      <div className=" mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-10 lg:py-16">
 
         {/* PAGE INTRO */}
         <section className="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
@@ -94,30 +97,45 @@ const OurLeadership = () => {
 
                 <div className="mt-5 space-y-4 text-sm leading-7 text-white/75 sm:text-base sm:leading-8  text-justify">
                   <p>
-                    Shilpi K. Sathish Acharya is a traditional Indian sculptor from Karkala, Karnataka, 
-                    belonging to a distinguished lineage of artisans dedicated to preserving India’s rich sculptural 
-                    and temple-building heritage. He is the son of ShilpGuru K. Shamaraya Acharya, former Chartered 
-                    President of the Karnataka Shilpa Kala Academy, Government of Karnataka, and founder of Vijaya Shilpa Shala.
+                    <span  className="text-[#D1BFA7] "> Shilpi K. Sathish Acharya </span> is a traditional Indian sculptor from Karkala, Karnataka,
+                     belonging to a distinguished family of artisans with a rich heritage in stone carving and 
+                     temple architecture. He is the son and disciple of the renowned <Link to="/founder"><span  className="text-[#D1BFA7]">ShilpGuru K. Shamaraya Acharya, </span></Link> 
+                     a recipient of the prestigious <span  className="text-[#D1BFA7]">Shilp Guru Award from the Government of India. </span> 
+                     His father founded <span  className="text-[#D1BFA7]" >Vijaya Shilpa Shala </span>  and subsequently served as  <span  className="text-[#D1BFA7]" >Chairman of 
+                     the Karnataka Shilpakala Academy for three terms.</span> 
                   </p>
 
                   <p>
-                    Trained under the guidance of his father, 
-                    K. Sathish Acharya has carried forward the traditional knowledge and craftsmanship
-                     of Shilpa Shastra, with a focus on stone sculpture and temple architecture. 
-                     His work reflects a deep respect for traditional artistic principles, precision, 
-                     and the spiritual significance of Indian temple art.
-
+                    Born into this rich artistic tradition, Sathish completed his primary education at <span  className="text-[#D1BFA7]" >Kabettu Primary School, </span>
+                     followed by his high school and PUC education at <span  className="text-[#D1BFA7]" > Sri Bhuvanendra College in Karkala. </span>
+                      He subsequently earned a <span  className="text-[#D1BFA7]" > Diploma in Electrical Engineering from NRAM Polytechnic, Nitte. </span>  
+                      Alongside his formal education, he received extensive traditional training in stone carving under
+                       the guidance of his father, who played a pivotal role as his  <span  className="text-[#D1BFA7]" > mentor, teacher, and inspiration. </span>
                   </p>
 
                   <p>
-                    Beyond his artistic practice, he has been actively involved in community and cultural organisations, 
-                    including the Rotaract Club and Rotary Club of Karkala. He has also served as Managing Trustee of Sri Kalikamba Temple, Karkala,
-                     reflecting his commitment to the cultural and spiritual traditions of his community.
+                    Through years of dedicated learning, Sathish developed a profound understanding of  <span  className="text-[#D1BFA7]" > Shilpa Shastra, </span>  
+                    Indian iconography, and the traditional principles of sculpture and temple architecture. 
                   </p>
                   <p>
-                    Through his craftsmanship and dedication, Shilpi K. Sathish Acharya continues the legacy of Vijaya Shilpa Shala,
-                     contributing to the preservation and continuation of India’s traditional stone-carving and temple-art traditions for future generations.
+                    As part of his contribution to the growth of the firm, Sathish established <span  className="text-[#D1BFA7]"> SHILPA GRAMA  at Hiriyangady,
+                     Karkala, </span> and developed a <span  className="text-[#D1BFA7]">workshop at Posanottu, Nakre, Kukkundoor, Karkala. </span> 
+                      Equipped with modern stone-cutting and shaping machinery, the facility brings together traditional craftsmanship and 
+                      contemporary technology,supporting precision and efficiency in the execution of complex sculptural works.
                   </p>
+                  <p>
+                    Beyond his professional pursuits, Sathish has actively participated in community and cultural organisations, 
+                    including the <span  className="text-[#D1BFA7]"> Rotaract Club and Rotary Club of Karkala. </span>He has also served as the  <span  className="text-[#D1BFA7]"> Managing Trustee of 
+                    Neklaje Sri Kalikamba Temple Karkala, </span> reflecting his commitment to the cultural, social, and spiritual 
+                    heritage of his community.
+                  </p>
+                  <p>
+                    Over the years,  <span  className="text-[#D1BFA7]">  K. Sathish Acharya </span> has been associated with numerous prestigious temple architecture 
+                    and sculptural projects across India. Through his dedication, technical understanding, and deep respect
+                     for traditional artistic values, he continues to <span  className="text-[#D1BFA7]">uphold the legacy of Vijaya Shilpa Shala and contribute to
+                      the preservation of Karnataka's rich stone-carving heritage for future generations. </span>
+                  </p>
+              
                 </div>
               </div>
             </div>
@@ -183,34 +201,12 @@ const OurLeadership = () => {
                     {member.description}
                   </p>
 
-                  {/* LINKEDIN */}
-                  {/* <div className="mt-auto pt-6">
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`View ${member.name}'s LinkedIn profile`}
-                      className="
-                        inline-flex max-w-full items-center justify-center
-                        gap-2 rounded-md py-2 text-sm
-                        text-[#D1BFA7] transition-colors duration-200
-                        hover:text-white
-                        focus-visible:outline-none
-                        focus-visible:ring-2 focus-visible:ring-[#D1BFA7]
-                        focus-visible:ring-offset-2
-                        focus-visible:ring-offset-[#1E1E1E]
-                      "
-                    >
-                      <FontAwesomeIcon icon={faLinkedin} />
-                      <span>View LinkedIn Profile</span>
-                    </a>
-                  </div> */}
-
                 </div>
               </article>
             ))}
           </div>
         </section>
+      </div>
       </main>
 
       <Footer />

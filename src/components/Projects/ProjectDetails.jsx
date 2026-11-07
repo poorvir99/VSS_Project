@@ -65,14 +65,6 @@ const ProjectDetails = () => {
 
           <div className="mb-10 sm:mb-12 md:mb-14">
 
-            {/* <p
-              className="text-xs sm:text-sm uppercase
-                         tracking-[0.15em] sm:tracking-[0.2em]
-                         text-gray-400 mb-3 sm:mb-4"
-            >
-              {project.style}
-            </p> */}
-
             <h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
                          font-serif text-[#D1BFA7]
@@ -121,11 +113,6 @@ const ProjectDetails = () => {
               title="Material"
               value={project.material}
             />
-
-            {/* <Meta
-              title="Style"
-              value={project.style}
-            /> */}
 
           </div>
 

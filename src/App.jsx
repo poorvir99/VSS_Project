@@ -13,6 +13,7 @@ import Awards from "./components/Awards";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import ScrollToTop from "./components/ScrollToTop";
 import OurLeadership from "./components/OurLeadership";
+import ShilpaGuruProject from "./components/ShilpaGuruProject";
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/project" element={<ProjectPage/>}/>
         <Route path="/project/:projectId" element={<ProjectDetails />} />
 
+         <Route path="/ShilpGuru" element={<ShilpaGuruProject/>} />
         <Route path="/gallery" element={<Gallery />} />
          <Route path="/gallery/:category" element={<GalleryCategory />}/>
 

@@ -29,7 +29,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p className="text-sm text-white/70 ">
+        <p className="-mt-5 text-sm text-white/70 leading-none">
           Where Passion meets Precision.
         </p>
       </div>
@@ -46,11 +46,17 @@ const Footer = () => {
           Udupi, Karnataka, India - 574104
         </p>
 
-        <p className="text-sm mt-4">
+        <p className="text-sm mt-4 hover:text-[#D1BFA7] transition">
+          <FontAwesomeIcon icon={faPhone} /> : +91 9741968349    
+        </p>
+         <p className="text-sm mt-2 hover:text-[#D1BFA7] transition">
+          <FontAwesomeIcon icon={faPhone} /> : +91 9632054577
+        </p>
+         <p className="text-sm mt-2 mb-4 hover:text-[#D1BFA7] transition">
           <FontAwesomeIcon icon={faPhone} /> : +91 9741065887
         </p>
 
-        <p className="text-sm break-all">
+        <p className="text-sm break-all hover:text-[#D1BFA7] transition">
           <FontAwesomeIcon icon={faEnvelope} /> :
           vijayashilpashala@gmail.com
         </p>
@@ -73,6 +79,14 @@ const Footer = () => {
 
           <Link to="/project" className="hover:text-[#D1BFA7] transition">
             Projects
+          </Link>
+
+          <Link to="/ShilpGuru" className="hover:text-[#D1BFA7] transition">
+            Shilpa Guru Project
+          </Link>
+
+          <Link to="/award" className="hover:text-[#D1BFA7] transition">
+            Awards
           </Link>
 
           <Link to="/gallery" className="hover:text-[#D1BFA7] transition">
