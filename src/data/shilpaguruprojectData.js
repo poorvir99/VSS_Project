@@ -5,7 +5,7 @@ const shilpaguruprojectData = [
    // Showcase_Images
     images: [
       {
-      src: "/public/images/Shilp Guru Project Images/someshwar_pillar.jpg",
+      src: "/images/Shilp Guru Project Images/someshwar_pillar.jpg",
       title: "Someshwar Pillar",
        stone_type:"KrishnaShila",
        description:`The Someshwara Pillar is a magnificent example of South Indian stone craftsmanship, recreated under the skilled guidance of traditional Shilpa Gurus. Inspired by the historic Someshwara temples of Karnataka, the pillar is renowned for its unique “Temple within a Temple” design, where the pillar itself is sculpted like a miniature shrine. This remarkable concept transforms the structure into both an architectural and spiritual masterpiece.
@@ -14,7 +14,7 @@ const shilpaguruprojectData = [
        The intricate carvings, balanced proportions, and multi-layered design showcase extraordinary precision and artistic dedication. More than a decorative structure, the Someshwara Pillar stands as a celebration of Karnataka’s rich temple heritage,preserving the timeless beauty, spirituality, and craftsmanship of traditional Indian stone sculpture.`,
     },
      {
-      src: "/public/images/Shilp Guru Project Images/Fountain.jpg",
+      src: "/images/Shilp Guru Project Images/Fountain.jpg",
       title: "Fountain",
        stone_type:"KrishnaShila",
        description:` This elegant three-tiered fountain is designed with beautifully scalloped, petal-like basins arranged in gradually decreasing sizes, creating a graceful and balanced cascading composition. Each basin is supported by finely crafted decorative pillars, while the central shaft and square pedestal are adorned with intricate floral patterns, scrolling motifs, and ornamental carvings that reflect remarkable craftsmanship and artistic sensitivity.
@@ -24,7 +24,7 @@ const shilpaguruprojectData = [
        `,
     },
        {
-      src: "/public/images/Shilp Guru Project Images/chennakeshava.jpg",
+      src: "/images/Shilp Guru Project Images/chennakeshava.jpg",
       title: "Chennakeshava",
        stone_type: "KrishnaShila",
        description:`Channakeshava is a magnificent form of Vishnu,revered in Hindu tradition as the preserver and protector of the universe. The name Chenna in Kannada means “beautiful,” and the sculpture embodies divine beauty, balance, and spiritual grace. The image is carved in the celebrated Hoysala style, strongly inspired by the architecture and sculpture of the famous Chennakeshava Temple in Karnataka. Hoysala art is renowned for its extraordinary craftsmanship, intricate ornamentation, and smooth dark polished finish that enhances the richness and elegance of the figure.
