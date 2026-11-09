@@ -209,7 +209,7 @@ const ShilpaGuruProject = ()=>{
 
           </div>
      
-                       {/* CTA */}
+                {/* CTA */}
           <div className="w-full text-center px-4 sm:px-6 md:px-8">
 
             <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-[#D1BFA7] mb-3 sm:mb-4">
