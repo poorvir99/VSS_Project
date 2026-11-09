@@ -53,7 +53,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faPhone} /> : +91 9632054577
         </p>
          <p className="text-sm mt-2 mb-4 hover:text-[#D1BFA7] transition">
-          <FontAwesomeIcon icon={faPhone} /> : +91 9741065887
+          <FontAwesomeIcon icon={faPhone} /> : +91 9741965887
         </p>
 
         <p className="text-sm break-all hover:text-[#D1BFA7] transition">
