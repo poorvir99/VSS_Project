@@ -209,9 +209,39 @@ const ShilpaGuruProject = ()=>{
 
           </div>
      
-     </div>
-    </main>
-      {/* ================= HEADER ================= */}
+                       {/* CTA */}
+          <div className="w-full text-center px-4 sm:px-6 md:px-8">
+
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-serif text-[#D1BFA7] mb-3 sm:mb-4">
+              Inspired by this Project?
+            </h3>
+
+            <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+              Let us help you bring your vision to life through timeless
+              stone craftsmanship.
+            </p>
+
+            <Link to="/contact" className="inline-block">
+              <button
+                className="px-7 py-3 sm:px-10 sm:py-4
+                          text-sm sm:text-base
+                          rounded-full
+                          bg-gradient-to-r from-[#D1BFA7] to-[#B89B72]
+                          text-[#2E2E2E] font-medium
+                          hover:scale-105 active:scale-95
+                          transition-transform duration-300"
+              >
+                Discuss Your Project
+              </button>
+            </Link>
+
+          </div>
+
+    </div>   
+  </main>
+
+
+      {/* ================= Footer ================= */}
        <Footer/>
     </div>
     )
