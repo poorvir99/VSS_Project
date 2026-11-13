@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ServiceCard from './ServiceCard';
-// import { ARCHITECTURE, LANDSCAPE_DESIGN, SCULPTURE, TEMPLE } from "/services_icons"
+
 const IMAGES = [
     "/services_icons/sculpture_color.png",
     "/services_icons/temple_colored.png",

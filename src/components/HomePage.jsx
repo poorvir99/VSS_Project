@@ -127,7 +127,7 @@ const HomePage = () => {
 
 
       {/* ================= STATISTICS ================= */}
-      <section className="max-w-5xl mx-auto px-6 sm:px-8 md:px-12">
+      <section className="max-w-5xl mx-auto px-6 sm:px-8 md:px-12 ">
 
         <div className="
           grid
@@ -139,6 +139,7 @@ const HomePage = () => {
           text-center
           py-8
           md:py-12
+          
         ">
 
           {/* EXPERIENCE */}
@@ -152,6 +153,7 @@ const HomePage = () => {
             py-5
             sm:px-6
             sm:py-7
+            shadow-lg hover:shadow-xl transition
           ">
             <span className="
               text-2xl
@@ -186,6 +188,7 @@ const HomePage = () => {
             py-5
             sm:px-6
             sm:py-7
+            shadow-lg hover:shadow-xl transition
           ">
             <span className="
               text-2xl

@@ -67,7 +67,7 @@ const ShilpaGuruProject = ()=>{
               src="/images/Shilp Guru Project Images/ShilpGuru_ Shamaraya_Acharya_carving.jpeg"
               alt="ShilpGuru K.Shamaraya Acharya working on a stone sculpture"
               loading="lazy"
-              className="w-full max-h-[280px] sm:max-h-[340px] lg:max-h-[380px] h-auto object-contain rounded-md"
+              className="w-full max-h-[280px] sm:max-h-[340px] lg:max-h-[380px] h-auto object-contain rounded-md "
             />
 
             <img
